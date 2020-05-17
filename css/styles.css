@@ -1,0 +1,251 @@
+/* Body */
+body {
+  text-align: center;
+}
+
+/* Navbar */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-style: 'ubuntu';
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+}
+
+/* Main Picture */
+.gympic {
+  border-radius: 3%;
+  transform: rotate(15deg);
+  height: 550px;
+  width: 80%;
+  position: absolute;
+  right: 10%;
+}
+
+/* Big Heading */
+h1 {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+@media (max-width:576px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.facilities {
+  padding: 0 3.6rem 0;
+}
+
+/* Gym Three icons */
+#features {
+  padding: 7% 12%;
+  background-color: #fff;
+  position: relative;
+}
+
+.icon {
+  color: black;
+  padding-bottom: 5px;
+}
+
+.icon:hover {
+  color: red;
+}
+
+.feature-box {
+  line-height: 1.8;
+}
+
+.newh3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.newp {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff0000;
+}
+
+/* Testimonials */
+.item {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
+
+.logo {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-left: 10px;
+  color: white;
+}
+
+#press {
+  background-color: #ffa41b;
+  padding-bottom: 3%
+}
+
+.presslogo {
+  width: 12%;
+  margin: 20px 20px 0px;
+}
+
+#testimonials {
+  background-color: #ffa41b;
+  color: #fff;
+}
+
+.testimonial-review {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+}
+
+.testimonial-pic {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 50%
+}
+
+.carousel-item {
+  padding: 3% 20%;
+}
+
+/* Cards */
+#pricing {
+  padding: 100px;
+  font-style: 'Montserrat-Black', sans-serif;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: skyblue;
+}
+
+.card {
+  background-color: lightyellow;
+}
+
+/* Media Query */
+@media (max-width:1000px) {
+  .gympic {
+    position: static;
+    transform: rotate(0);
+    height: 650px;
+    width: 90%;
+  }
+
+  .item {
+    font-size: 2rem;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  #pricing {
+    padding: 50px;
+    text-align: center;
+    font-style: 'Montserrat-Black', sans-serif;
+  }
+
+  .navbar {
+    padding: 0 0 2.5rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1.9rem;
+  }
+
+  .testimonial-review {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:600px) {
+  .navbar {
+    padding: 0 0 2.5rem;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1.3rem;
+  }
+
+  .gympic {
+    position: static;
+    transform: rotate(0);
+    height: 470px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-review {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+  }
+}
+
+/* CTA */
+#cta {
+  background-color: red;
+  color: #fff;
+  padding: 3% 15%;
+}
+
+/* h2 */
+h2, h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  padding: 3% 10%;
+}
+
+.footicon {
+  margin: 15px 8px;
+}
+
+.footicon:hover {
+  transform: scale(2.5);
+}
